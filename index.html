@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/e1d5ed8755.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+  <title>Queens Apparel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="homepage">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="https://images-platform.99static.com//3iM1Z6JwHvwsVB-2hZpXyNUfgps=/0x0:1000x1000/fit-in/590x590/99designs-contests-attachments/102/102701/attachment_102701274" alt="" width="70px" height="50px">
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Catalogue</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </nav>
+      <i class="bi bi-bag"  class="menu-icon cart" width="50px" height="50px"onclick="menutoggle()" ></i>
+      
+    </div>
+
+    <div class="row" style="padding-top: 200px;">
+      <div class="col-2">
+        <h1>QUEENS APPAREL</h1>
+        <p><em>Feel like a queen</em></p>
+        <a href="#" class="btn" style="margin-left: 0px;">Explore Now &#8594;</a>
+      </div>
+      <div class="col-2">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- js for menutoggle -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+        {
+          MenuItems.style.maxHeight = "200px"
+        }
+      else
+        {
+          MenuItems.style.maxHeight = "0px";
+        }
+    }
+  </script>
+</body>
+
+
+</html>
+
+
+<!-- Scripts -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
